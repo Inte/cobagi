@@ -6,7 +6,7 @@ Backup your system settings and scripts in an easy an convenient way on github.c
 
 h3. Introduction
 
-Use your brain! Don't push sensitive data (passwords, keys, etc.[1]) to github and you'll be happy. Also use your own account information for setup[2].
+Use your brain! Don't push sensitive data (passwords, keys, etc.) to github and you'll be happy[1]. Also use your own account information for setup[2].
 
 *Operating system: "Gentoo Linux":http://www.gentoo.org/
 *Hardware: "IBM ThinkPad R40 (2722-DG1)":http://www.thinkwiki.org/wiki/2722-DG1
