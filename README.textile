@@ -2,19 +2,22 @@ h2. cobagi
 
 config backups using git(hub)
 
+Backup your system settings and scripts in an easy an convenient way on github.com
+
 h3. Introduction
 
-Backup your system setting in an easy an convenient way on github.com
+Use your brain! Don't push sensitive data (passwords, keys, etc.[1]) to github and you'll be happy. Also use your own account information for setup[2].
 
-Use your brain! Don't push sensitive data (passwords, keys, etc.) to github and you'll be happy.
+*Operating system: "Gentoo Linux":http://www.gentoo.org/
+*Hardware: "IBM ThinkPad R40 (2722-DG1)":http://www.thinkwiki.org/wiki/2722-DG1
 
 h3. Create Github repository
 
-"https://github.com/repositories/new (Create repository)":url
+"Create repository":https://github.com/repositories/new
 
 h3. Local setup
 
-Download and install "http://git-scm.com/download (Git)":url
+Download and install "Git":http://git-scm.com/download
 
 h4. Configure login
 
@@ -45,7 +48,7 @@ h4. Add config files
 
 h4. When you're done
 
-"http://github.com/Inte/cobagi/tree/master (Continue)":url
+"Continue":http://github.com/Inte/cobagi/tree/master
 
 h3. FAQ
 
@@ -53,5 +56,7 @@ h3. FAQ
 * How can I remove accidently committed changes?
 * How can I revert an accidently pushed commit?
 * Why don't you exclude /. directories (/.git/ for example)?
-* Is it safe to run ??git clean???
+* Is it safe to run @git clean@?
 
+fn1. Bad Idea! @git add etc/ssh/*@
+fn2. Don't copy & paste! Use your account information. For example: @git@github.com:Inte/cobagi.git -> git@github.com:${YourUsername}/${YourRepo}.git@
