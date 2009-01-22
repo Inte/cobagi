@@ -1,0 +1,34 @@
+games-rpg/nwn-data nowin
+net-wireless/madwifi-ng injection
+net-dialup/ppp dhcp
+net-www/mplayerplug-in divx gmedia realmedia wmp
+app-misc/mc slang
+mail-client/mutt imap smtp smime vanilla
+net-im/gajim idle trayicon
+dev-lang/spidermonkey threadsafe
+app-laptop/tpb xosd
+x11-drivers/linuxwacom usb
+media-video/mplayer live
+x11-wm/compiz fuse
+x11-wm/compiz-fusion emerald
+x11-libs/cairo glitz
+x11-misc/slim -branding
+sys-devel/gcc -fortran -mudflap
+sci-libs/fftw -fortran
+www-client/mozilla-firefox java moznopango
+net-im/mcabber otr
+net-print/cups ppds
+dev-libs/pwlib ldap
+sys-apps/hal laptop
+x11-libs/qt sqlite3 # fuer mumble
+app-emulation/wine -gecko
+games-emulation/zsnes ao
+mail-client/sylpheed crypt
+net-im/mcabber crypt
+mail-client/mutt crypt gpgme
+net-wireless/kismet ncurses
+net-irc/irssi perl
+xfce-base/xfce-utils -lock
+xfce-base/thunar -trash-plugin
+www-client/kazehakase webkit
+media-video/vlc live qt4 rtsp stream
