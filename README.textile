@@ -39,14 +39,16 @@ Attention! Dotfiles in your root directory still get tracked if you run:
   $ cd /
   $ git add .
 
-h4. Add config files
+h4. Add remote repo and first file
 
   $ git add /etc/conf.d/local.start
   $ git commit -m 'first commit'
   $ git remote add origin git@github.com:Inte/cobagi.git
   $ git push origin master
 
-h4. When you're done
+*Done!*
+
+h4. Daily routine
 
 From now on just add all files you wish to backup:
 
