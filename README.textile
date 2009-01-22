@@ -49,6 +49,7 @@ h4. Add config files
 h4. When you're done
 
 From now on just add all files you wish to backup:
+
   $ git add etc/fstab
   $ git commit -m 'added filesystem table'
   $ git push
