@@ -1,0 +1,20 @@
+# Adding PulseAudio support to ALSA allows programs which use ALSA to use PulseAudio through ALSA.
+# media-sound/alsa-plugins
+pcm.pulse {
+    type pulse
+}
+
+ctl.pulse {
+    type pulse
+}
+
+
+# PulseAudio to be the default device for ALSA
+pcm.!default {
+    type pulse
+}
+
+ctl.!default {
+    type pulse
+}
+
