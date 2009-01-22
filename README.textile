@@ -8,6 +8,8 @@ h2. Introduction
 
 Use your brain! Don't push sensitive data (passwords, keys, etc.) to github and you'll be happy[1]. Also use your own account information for setup[2].
 
+Feel free to browse in my config files and scripts. Most of them are specific for my system:
+
 * Operating system: "Gentoo Linux":http://www.gentoo.org/
 * Hardware: "IBM ThinkPad R40 (2722-DG1)":http://www.thinkwiki.org/wiki/2722-DG1
 
