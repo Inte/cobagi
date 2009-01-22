@@ -48,7 +48,10 @@ h4. Add config files
 
 h4. When you're done
 
-"Continue":http://github.com/Inte/cobagi/tree/master
+From now on just add all files you wish to backup:
+  $ git add etc/fstab
+  $ git commit -m 'added filesystem table'
+  $ git push
 
 h3. FAQ
 
