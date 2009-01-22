@@ -4,7 +4,9 @@ config backups using git(hub)
 
 h3. Introduction
 
-Backup der Einstellungen (Konfigurationsdateien) eines Linuxsystems mit Hilfe von github.com
+Backup your system setting in an easy an convenient way on github.com
+
+Use your brain! Don't push sensitive data (passwords, keys, etc.) to github and you'll be happy.
 
 h3. Create Github repository
 
@@ -43,8 +45,9 @@ h4. When you're done
 
 h3. FAQ
 
-* I accidently added a wrong file. How can I remove it?
-* I accidently committed wrong changes. How can I remove it?
-* I accidently pushed a wrong commit. How can I revert it?
-* Why don't you exclude /. directories?
+* How can I remove an accidently added file?
+* How can I remove accidently committed changes?
+* How can I revert an accidently pushed commit?
+* Why don't you exclude /. directories (/.git/ for example)?
+* Is it safe to run ??git clean???
 
