@@ -1,0 +1,80 @@
+h2. cobagi
+
+config backups using git(hub)
+
+h3. Introduction
+
+Backup der Einstellungen (Konfigurationsdateien) eines Linuxsystems mit Hilfe von github.com
+
+
+h3. Details
+
+$ cd /
+$ git init
+$ git remote add origin git@github.com:${username}/${repository}.git
+$ git pull origin master
+
+"http://www.kernel.org/pub/software/scm/git/docs/git-add.html":url
+The ??git add?? command will not add ignored files by default. If any ignored files were explicitly specified on the command line, ??git add?? will fail with a list of ignored files. Ignored files reached by directory recursion or filename globbing performed by Git (quote your globs before the shell) will be silently ignored. The add command can be used to add ignored files with the -f (force) option.
+
+"http://www.kernel.org/pub/software/scm/git/docs/gitignore.html":url
+$GIT_DIR/info/exclude
+An optional prefix ! which negates the pattern; any matching file excluded by a previous pattern will become included again. If a negated pattern matches, this will override lower precedence patterns sources. 
+
+h3. Initial Github setup
+
+h4. Create repository
+
+"https://github.com/repositories/new (Create repository)":url
+
+h4. Next steps
+
+  mkdir cobagi
+  cd cobagi
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:Inte/cobagi.git
+  git push origin master
+     
+
+h4. Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:Inte/cobagi.git
+  git push origin master
+
+h4. Importing a SVN Repo?
+
+"http://github.com/Inte/cobagi/imports/new (Click here)":url
+
+h4. When you're done
+
+"http://github.com/Inte/cobagi/tree/master (Continue)":url
+
+h3. Initial local setup
+
+Download and install "http://git-scm.com/download (Git)":url
+
+h4. Configure login
+
+$ git config --global user.email "your@example.com"
+$ git config --global user.name "Inte"
+
+h4. Disable global tracking
+
+$ echo \/ >> /.git/info/exclude
+
+??gitignore??
+Tracken global deaktivieren (Passwörter, Keys, etc.) und nur einzeln freischalten.
+
+/ > exclude
+!pathtoconfigfile >> exclude
+
+h3. FAQ
+
+Ich habe mit ??git add?? eine falsche Datei hinzugefügt. Wie kann ich diese wieder entfernen?
+
+Ich habe mit ??git commit?? eine falsche Datei dem Index hinzugefügt. Wie kann ich diese wieder entfernen?
+
