@@ -1,36 +1,36 @@
-h2. cobagi
+h1. cobagi
 
 config backups using git(hub)
 
 Backup your system settings and scripts in an easy an convenient way on github.com
 
-h3. Introduction
+h2. Introduction
 
 Use your brain! Don't push sensitive data (passwords, keys, etc.) to github and you'll be happy[1]. Also use your own account information for setup[2].
 
 * Operating system: "Gentoo Linux":http://www.gentoo.org/
 * Hardware: "IBM ThinkPad R40 (2722-DG1)":http://www.thinkwiki.org/wiki/2722-DG1
 
-h3. Create Github repository
+h2. Create Github repository
 
 "Create repository":https://github.com/repositories/new
 
-h3. Local setup
+h2. Local setup
 
 Download and install "Git":http://git-scm.com/download
 
-h4. Configure login
+h3. Configure login
 
   $ git config --global user.email "your@example.com"
   $ git config --global user.name "Inte"
 
-h4. Initialise repo
+h3. Initialise repo
 
   $ su - 
   $ cd /
   $ git init
      
-h4. Disable global tracking
+h3. Disable global tracking
 
   $ echo -e "bin/ \nboot/ \ndev/ \netc/ \nhome/ \nlib/ \nmedia/ \nmnt/ \nopt/ \nproc/ \nroot/ \nsbin/ \nsys/ \ntmp/ \nusr/ \nvar/" >> /.git/info/exclude
 
@@ -39,7 +39,7 @@ Attention! Dotfiles in your root directory still get tracked if you run:
   $ cd /
   $ git add .
 
-h4. Add remote repo and first file
+h3. Add remote repo and first file
 
   $ git add /etc/conf.d/local.start
   $ git commit -m 'first commit'
@@ -48,7 +48,7 @@ h4. Add remote repo and first file
 
 *Done!*
 
-h4. Daily routine
+h3. Daily routine
 
 From now on just add all files you wish to backup:
 
@@ -56,7 +56,7 @@ From now on just add all files you wish to backup:
   $ git commit -m 'added filesystem table'
   $ git push
 
-h3. FAQ
+h2. FAQ
 
 * How can I remove an accidently added file?
 * How can I remove accidently committed changes?
