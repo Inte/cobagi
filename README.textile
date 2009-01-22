@@ -32,7 +32,7 @@ h3. Initialise repo
      
 h3. Disable global tracking
 
-  $ echo -e "bin/ \nboot/ \ndev/ \netc/ \nhome/ \nlib/ \nmedia/ \nmnt/ \nopt/ \nproc/ \nroot/ \nsbin/ \nsys/ \ntmp/ \nusr/ \nvar/" >> /.git/info/exclude
+  $ echo -e "bin/ \nboot/ \ndev/ \netc/ \nhome/ \nlib/ \nmedia/ \nmnt/ \nopt/ \nproc/ \nroot/ \nsbin/ \nsys/ \ntmp/ \nusr/ \nvar/" >> /.gitignore
 
 Attention! Dotfiles in your root directory still get tracked if you run:
 
