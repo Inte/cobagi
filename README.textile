@@ -6,21 +6,6 @@ h3. Introduction
 
 Backup der Einstellungen (Konfigurationsdateien) eines Linuxsystems mit Hilfe von github.com
 
-
-h3. Details
-
-  $ cd /
-  $ git init
-  $ git remote add origin git@github.com:${username}/${repository}.git
-  $ git pull origin master
-
-"http://www.kernel.org/pub/software/scm/git/docs/git-add.html":url
-The ??git add?? command will not add ignored files by default. If any ignored files were explicitly specified on the command line, ??git add?? will fail with a list of ignored files. Ignored files reached by directory recursion or filename globbing performed by Git (quote your globs before the shell) will be silently ignored. The add command can be used to add ignored files with the -f (force) option.
-
-"http://www.kernel.org/pub/software/scm/git/docs/gitignore.html":url
-$GIT_DIR/info/exclude
-An optional prefix ! which negates the pattern; any matching file excluded by a previous pattern will become included again. If a negated pattern matches, this will override lower precedence patterns sources. 
-
 h3. Create Github repository
 
 "https://github.com/repositories/new (Create repository)":url
@@ -43,9 +28,9 @@ h4. New repository?
 
 h4. Existing Git Repo?
 
-  cd /
-  git remote add origin git@github.com:Inte/cobagi.git
-  git push origin master
+  $ cd /
+  $ git remote add origin git@github.com:Inte/cobagi.git
+  $ git push origin master
 
 h4. Disable global tracking
 
