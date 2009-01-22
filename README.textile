@@ -8,8 +8,8 @@ h3. Introduction
 
 Use your brain! Don't push sensitive data (passwords, keys, etc.) to github and you'll be happy[1]. Also use your own account information for setup[2].
 
-*Operating system: "Gentoo Linux":http://www.gentoo.org/
-*Hardware: "IBM ThinkPad R40 (2722-DG1)":http://www.thinkwiki.org/wiki/2722-DG1
+* Operating system: "Gentoo Linux":http://www.gentoo.org/
+* Hardware: "IBM ThinkPad R40 (2722-DG1)":http://www.thinkwiki.org/wiki/2722-DG1
 
 h3. Create Github repository
 
@@ -59,4 +59,5 @@ h3. FAQ
 * Is it safe to run @git clean@?
 
 fn1. Bad Idea! @git add etc/ssh/*@
+
 fn2. Don't copy & paste! Use your account information. For example: @git@github.com:Inte/cobagi.git -> git@github.com:${YourUsername}/${YourRepo}.git@
