@@ -69,6 +69,8 @@ h2. TODO
 
 * Write down FAQ's answers
 
+h2. Footnotes
+
 fn1. Bad Idea! @git add etc/ssh/*@
 
 fn2. Don't copy & paste! Use your account information. For example: @git@github.com:Inte/cobagi.git -> git@github.com:${YourUsername}/${YourRepo}.git@
