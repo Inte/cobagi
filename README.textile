@@ -27,7 +27,8 @@ h4. Initialise repo
      
 h4. Disable global tracking
 
-  $ echo -e "bin/ \nboot/ \ndev/ \netc/ \n.git/ \nhome/ \nlib/ \nmedia/ \nmnt/ \nopt/ \nproc/ \nroot/ \nsbin/ \nsys/ \ntmp/ \nusr/ \nvar/" >> /.git/info/exclude
+  $ echo -e "bin/ \nboot/ \ndev/ \netc/ \nhome/ \nlib/ \nmedia/ \nmnt/ \nopt/ \nproc/ \nroot/ \nsbin/ \nsys/ \ntmp/ \nusr/ \nvar/" >> /.git/info/exclude
+Attention! Dotfiles in your root directory still get tracked if you run: ??cd / && git add .??
 
 h4. Add config files
 
@@ -42,7 +43,8 @@ h4. When you're done
 
 h3. FAQ
 
-Ich habe mit ??git add?? eine falsche Datei hinzugefügt. Wie kann ich diese wieder entfernen?
-
-Ich habe mit ??git commit?? eine falsche Datei dem Index hinzugefügt. Wie kann ich diese wieder entfernen?
+* I accidently added a wrong file. How can I remove it?
+* I accidently committed wrong changes. How can I remove it?
+* I accidently pushed a wrong commit. How can I revert it?
+* Why don't you exclude /. directories?
 
