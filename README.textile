@@ -31,7 +31,10 @@ h4. Disable global tracking
 
   $ echo -e "bin/ \nboot/ \ndev/ \netc/ \nhome/ \nlib/ \nmedia/ \nmnt/ \nopt/ \nproc/ \nroot/ \nsbin/ \nsys/ \ntmp/ \nusr/ \nvar/" >> /.git/info/exclude
 
-Attention! Dotfiles in your root directory still get tracked if you run: ??cd / && git add .??
+Attention! Dotfiles in your root directory still get tracked if you run:
+
+  $ cd /
+  $ git add .
 
 h4. Add config files
 
