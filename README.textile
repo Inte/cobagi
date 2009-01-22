@@ -41,7 +41,7 @@ Attention! Dotfiles in your root directory still get tracked if you run:
 
 h3. Add remote repo and first file
 
-  $ git add /etc/conf.d/local.start
+  $ git add etc/conf.d/local.start
   $ git commit -m 'first commit'
   $ git remote add origin git@github.com:Inte/cobagi.git
   $ git push origin master
@@ -58,11 +58,16 @@ From now on just add all files you wish to backup:
 
 h2. FAQ
 
+* Why can't I use absolute paths (beginning slashs)?
 * How can I remove an accidently added file?
 * How can I remove accidently committed changes?
 * How can I revert an accidently pushed commit?
 * Why don't you exclude /. directories (/.git/ for example)?
 * Is it safe to run @git clean@?
+
+h2. TODO
+
+* Write down FAQ's answers
 
 fn1. Bad Idea! @git add etc/ssh/*@
 
