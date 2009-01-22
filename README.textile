@@ -10,7 +10,7 @@ h3. Create Github repository
 
 "https://github.com/repositories/new (Create repository)":url
 
-h3. Initial local setup
+h3. Local setup
 
 Download and install "http://git-scm.com/download (Git)":url
 
@@ -19,19 +19,12 @@ h4. Configure login
   $ git config --global user.email "your@example.com"
   $ git config --global user.name "Inte"
 
-h4. New repository?
+h4. Initialise repo
 
   $ su - 
   $ cd /
   $ git init
      
-
-h4. Existing Git Repo?
-
-  $ cd /
-  $ git remote add origin git@github.com:Inte/cobagi.git
-  $ git push origin master
-
 h4. Disable global tracking
 
   $ echo '/' >> /.git/info/exclude
