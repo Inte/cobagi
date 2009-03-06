@@ -1,53 +1,28 @@
+dev-embedded/arduino
+net-ftp/filezilla
 media-sound/lastfmplayer
-media-video/vlc
-www-client/kazehakase
- net-libs/webkit-gtk
-www-client/mozilla-firefox
- =dev-libs/nspr-4.7.1
- =dev-libs/nss-3.12
- net-libs/xulrunner
 net-www/netscape-flash
-media-video/avidemux
-media-sound/sonata
- dev-python/python-mpd
 media-libs/libtheora
 x11-misc/slim
-app-portage/etc-proposals
+media-sound/mumble
+media-sound/gpodder
+games-board/pokerth
 media-sound/skype-call-recorder
  dev-util/cmake
-games-board/pokerth
-media-sound/mumble
-net-misc/wicd
- x11-misc/ktsuss
- =sys-power/pm-utils-1.1.1
 x11-wm/awesome
  dev-libs/libev
  x11-libs/libxcb
  x11-proto/xcb-proto
  x11-libs/xcb-util
  x11-proto/xproto
-media-sound/gpodder
 
 # Mcabber
 net-im/mcabber
 net-libs/libotr
 
-# Filezilla
-net-ftp/filezilla
-net-libs/gnutls
-app-crypt/opencdk
-app-admin/eselect-wxwidgets
-x11-libs/wxGTK
 
-# Compiz Fusion
-=x11-wm/compiz-fusion-0.7.8
-=x11-plugins/compiz-fusion-plugins-extra-0.7.8
-=x11-plugins/compiz-fusion-plugins-main-0.7.8
-=x11-wm/compiz-0.7.8
-=x11-apps/ccsm-0.7.8-r1
-=x11-apps/simple-ccsm-0.7.8
-=dev-python/compizconfig-python-0.7.8
-=x11-libs/libcompizconfig-0.7.8
-=x11-libs/compiz-bcop-0.7.8
-=x11-wm/emerald-0.7.8
-=x11-themes/emerald-themes-0.5.2
+cross-avr/binutils * ~* -x86 -~x86
+cross-avr/gcc * ~* -x86 -~x86
+cross-avr/avr-libc * ~* -x86 -~x86
+cross-avr/gdb * ~* -x86 -~x86
+cross-avr/insight * ~* -x86 -~x86

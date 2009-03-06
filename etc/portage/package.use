@@ -1,3 +1,6 @@
+app-text/acroread -nsplugin
+media-video/vlc -nsplugin
+dev-embedded/arduino java
 games-rpg/nwn-data nowin
 net-wireless/madwifi-ng injection
 net-dialup/ppp dhcp
@@ -30,5 +33,12 @@ net-wireless/kismet ncurses
 net-irc/irssi perl
 xfce-base/xfce-utils -lock
 xfce-base/thunar -trash-plugin
-www-client/kazehakase webkit
 media-video/vlc live qt4 rtsp stream
+dev-util/subversion -dso -webdav-neon
+app-office/gnucash -doc
+gnome-base/gnome-vfs -fam -hal
+x11-libs/goffice gnome #gnucash
+gnome-extra/libgsf gnome #gnucash
+cross-avr/binutils -selinux
+cross-avr/avr-libc -selinux
+cross-avr/gcc -boundschecking -d -fortran -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc -openmp -selinux -boundschecking -d -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc -openmp

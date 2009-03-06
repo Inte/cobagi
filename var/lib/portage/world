@@ -14,7 +14,9 @@ app-editors/vim
 app-emulation/wine
 app-laptop/tpb
 app-misc/mc
+app-misc/mmv
 app-misc/screen
+app-office/gnucash
 app-office/openoffice-bin
 app-pda/pilot-link
 app-portage/eix
@@ -25,6 +27,10 @@ app-portage/layman
 app-text/acroread
 app-text/xchm
 app-text/xpdf
+cross-avr/avr-libc
+cross-avr/binutils
+cross-avr/gcc
+dev-embedded/arduino
 dev-java/sun-jdk
 dev-util/cvs
 dev-util/git
@@ -44,6 +50,7 @@ media-fonts/freefont-ttf
 media-fonts/liberation-fonts
 media-fonts/sil-gentium
 media-fonts/unifont
+media-gfx/comix
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/mirage
@@ -67,7 +74,6 @@ media-video/avidemux
 media-video/mplayer
 media-video/rovclock
 media-video/setpwc
-media-video/vlc
 media-video/xvattr
 net-analyzer/macchanger
 net-analyzer/netcat
@@ -80,7 +86,6 @@ net-dialup/wvdial
 net-dns/dnsmasq
 net-firewall/iptables
 net-ftp/filezilla
-net-ftp/gftp
 net-im/mcabber
 net-im/skype
 net-irc/irssi
@@ -99,12 +104,15 @@ net-wireless/wpa_supplicant
 net-www/netscape-flash
 sci-calculators/galculator
 sys-apps/ethtool
+sys-apps/hdparm
 sys-apps/pciutils
 sys-apps/pmount
 sys-apps/usbutils
 sys-boot/grub
 sys-boot/syslinux
+sys-devel/binutils-config
 sys-devel/distcc
+sys-devel/gcc-config
 sys-fs/dosfstools
 sys-fs/reiserfsprogs
 sys-fs/udftools
@@ -119,7 +127,6 @@ virtual/pcmcia
 www-client/kazehakase
 www-client/lynx
 www-client/mozilla-firefox
-x11-apps/simple-ccsm
 x11-apps/xev
 x11-apps/xfontsel
 x11-apps/xset
@@ -131,7 +138,6 @@ x11-misc/slim
 x11-misc/xautolock
 x11-misc/xtrlock
 x11-wm/awesome
-x11-wm/compiz-fusion
 xfce-base/xfce4
 xfce-extra/thunar-archive
 xfce-extra/thunar-media-tags
